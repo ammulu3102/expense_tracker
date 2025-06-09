@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>expense tracker</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+
+      <div>
+            <h1>Expense Tracker</h1>
+            <form id="expenseForm">
+              <input type="text area" placeholder="Description" id="desc" />
+              <br />
+              <input type="text" id="amount" placeholder="amount" />
+              <br />
+
+              <select name="items" id="type">
+                <option value="" disabled>Select Expense Type</option>
+                <option value="expenses">expenses</option>
+                <option value="income">income</option>
+              </select>
+              <br />
+              <br />
+
+              <select name="items" id="category">
+                <option value="" disabled>select category type</option>
+                <option value="Grocery">Grocery</option>
+                <option value="Shopping">Shopping</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Food">Food</option>
+                <option value="others">others</option>
+              </select>
+
+              <br />
+              <br />
+              <button type="submit" id="submitBtn">Add Expense</button>
+            </form>
+            <br />
+            <br />
+            <br />
+      </div>
+
+      <div class="records">
+        <h2>Records</h2>
+        <ul id="expensesList"></ul>
+      </div>
+      <!-- <table>
+        <tr>
+          <th>S.no</th>
+          <th>Name</th>
+          <th>Amount</th>
+          <th>Expense Type</th>
+          <th>Category</th>
+          <th>Edit</th>
+          <th>Delete</th>
+        </tr>
+        <tr>
+          <th>1</th>
+          <th>chicken Biryani</th>
+          <th>280</th>
+          <th>expense</th>
+          <th>Food</th>
+          <th><i class="fa fa-pencil"></i></th>
+          <th><i class="fa fa-trash"></i></th>
+        </tr>
+
+        <tr>
+          <th>2</th>
+          <th>chicken Biryani</th>
+          <th>280</th>
+          <th>expense</th>
+          <th>Food</th>
+          <th><i class="fa fa-pencil"></i></th>
+          <th><i class="fa fa-trash"></i></th>
+        </tr>
+      </table> -->
+
+      <div class="summary">
+        <div>
+          <h2>Summary</h2>
+          <div class="Summary">
+            <p>
+              Initial Balance:
+              <span id="initialBalance">0</span>
+            </p>
+            <p>
+              Total Income:
+              <span id="totalIncome">0</span>
+            </p>
+            <p>
+              Total Expense:
+              <span id="totalExpense">0</span>
+            </p>
+            <p>
+              Current Balance:
+              <span id="currentBalance">0</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./expense_tracker.js"></script>
+  </body>
+</html>
