@@ -28,7 +28,7 @@ A simple, client‑side expense tracking web application that allows you to reco
 
    ```bash
    git clone https://github.com/ammulu3102/expense_tracker.git
-   cd expense-tracker-v1
+   cd expense-tracker
    ```
 
 2. **Open the application**
@@ -56,7 +56,7 @@ A simple, client‑side expense tracking web application that allows you to reco
    * Click **Delete** to remove an entry.
    * Changes are saved automatically to `localStorage`.
 
-> **Note:** Place your `screenshot.png` file in the project root (same folder as `index.html`) so it renders correctly on GitHub.
+> **Note:** Place your `expense_tracker_app_preview.PNG` file in the project root (same folder as `index.html`) so it renders correctly on GitHub.
 
 ## Project Structure
 
