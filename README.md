@@ -2,6 +2,10 @@
 
 A simple, client‑side expense tracking web application that allows you to record, view, edit, and delete expenses. All data is persisted in the browser’s `localStorage`, so your entries remain available even after a page reload.
 
+## Expense Tracker Preview
+
+![Expense Tracker Preview](expense_tracker_app_preview.PNG)
+
 ## Features
 
 * **Add Expense**: Enter an amount, description, expense type (e.g., Income or Expense), and category (e.g., Food, Utilities, Salary).
@@ -51,10 +55,6 @@ A simple, client‑side expense tracking web application that allows you to reco
    * In the list below, click **Edit** on any entry to modify.
    * Click **Delete** to remove an entry.
    * Changes are saved automatically to `localStorage`.
-
-## Screenshot
-
-![Expense Tracker Preview](expense_tracker_app_preview.PNG)
 
 > **Note:** Place your `screenshot.png` file in the project root (same folder as `index.html`) so it renders correctly on GitHub.
 
